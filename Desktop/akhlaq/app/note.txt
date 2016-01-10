@@ -1,0 +1,1 @@
+dependency install karney ke lye npm install likh

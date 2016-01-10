@@ -1,0 +1,45 @@
+
+
+<ion-view>
+  <ion-content>
+<form action="" ng-submit="login()">
+<div class="item item-body">
+	
+	<div class="list">
+  <label class="item item-input">
+    <span class="input-label">Username</span>
+    <input type="text" ng-model="username">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password" ng-model="password">
+  </label>
+  
+    <label class="item item-input">
+    
+     <button ng-click="submit()" type="submit" class="button button-royal">
+                Submit
+            </button>
+  </label>
+  
+</div>
+</form>
+
+
+<div class="button-bar">
+  
+  <button class="button button-royal" ui-sref='login'>
+  LOGIN
+</button>
+
+<button class="button button-royal" ui-sref='signUp'>
+  SIGN UP
+  
+</button>
+  
+	
+</div>    
+    
+    </ion-content>
+  </ion-view>
+
